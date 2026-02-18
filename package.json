@@ -1,0 +1,23 @@
+{
+  "name": "capcut-downloader-sann404",
+  "version": "1.0.0",
+  "description": "CapCut Video Downloader for Vercel Deployment",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "keywords": [
+    "capcut",
+    "downloader",
+    "vercel",
+    "sann404-forum"
+  ],
+  "author": "SANN404 FORUM",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
